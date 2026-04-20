@@ -58,8 +58,7 @@ async def akzeptieren(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.message:
         await update.message.reply_text(
             "Geschafft! 💫\n\n"
-            "Hier ist alles weitere, was du brauchst:\n"
-            "• Telegram-Gruppe: https://t.me/+_caJP_eu_41jZjdi\n"
+            "Hier findest du alles weitere:\n"
             "• Gästeliste: https://docs.google.com/forms/d/e/1FAIpQLSfZbUQFMCx8It2QzV2owH7LzjBe1J21PeFjyKiiXFEHXm2BbA/viewform?usp=publish-editor"
         )
 
