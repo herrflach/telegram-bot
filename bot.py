@@ -58,7 +58,7 @@ async def akzeptieren(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(
             "Geschafft! 💫\n\n"
             "Hier findest du alles weitere:\n"
-            "• Gästeliste: https://docs.google.com/forms/d/e/1FAIpQLSfZbUQFMCx8It2QzV2owH7LzjBe1J21PeFjyKiiXFEHXm2BbA/viewform?usp=publish-editor\n\n"
+            "https://docs.google.com/forms/d/e/1FAIpQLSfZbUQFMCx8It2QzV2owH7LzjBe1J21PeFjyKiiXFEHXm2BbA/viewform?usp=publish-editor\n\n"
             "Bitte trag dich und ggf. deine Begleitung über den Link in die Gästeliste ein. "
             "Tickets gibt es weiterhin an der Abendkasse – der Einlass ist jedoch nur möglich, wenn du auf der Gästeliste stehst. "
             "Das dient vor allem unserem organisatorischen Überblick.\n\n"
