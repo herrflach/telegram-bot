@@ -53,16 +53,19 @@ async def verstanden(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
 
 
-# /akzeptieren
 async def akzeptieren(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.message:
         await update.message.reply_text(
             "Geschafft! 💫\n\n"
             "Hier findest du alles weitere:\n"
-            "• Gästeliste: https://docs.google.com/forms/d/e/1FAIpQLSfZbUQFMCx8It2QzV2owH7LzjBe1J21PeFjyKiiXFEHXm2BbA/viewform?usp=publish-editor"
+            "• Gästeliste: https://docs.google.com/forms/d/e/1FAIpQLSfZbUQFMCx8It2QzV2owH7LzjBe1J21PeFjyKiiXFEHXm2BbA/viewform?usp=publish-editor\n\n"
+            "Bitte trag dich und ggf. deine Begleitung über den Link in die Gästeliste ein. "
+            "Tickets gibt es weiterhin an der Abendkasse – der Einlass ist jedoch nur möglich, wenn du auf der Gästeliste stehst. "
+            "Das dient vor allem unserem organisatorischen Überblick.\n\n"
+            "Wichtig: Nur weil du auf der Liste stehst, bist du nicht verpflichtet zu kommen. "
+            "Falls sich etwas ändert, kannst du dich jederzeit einfach bei uns melden und wir streichen dich wieder."
         )
-
-
+        
 # Bot starten
 app = ApplicationBuilder().token(TOKEN).build()
 
